@@ -13,7 +13,7 @@ o	Division
 
 Solution: 
 
-  1) We have to take two variable which store user input value.
+  1) We have to take two variable which store user input value and convert it into integer. Because by default eveery input is in the form of string.
   2) We implement airthmatic operation on it.
 
 

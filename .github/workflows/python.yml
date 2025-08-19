@@ -11,4 +11,4 @@ jobs:
          uses: actions/checkout
 
        - name: Run Python Script
-         run: python app.py
+         run: python Hello.py

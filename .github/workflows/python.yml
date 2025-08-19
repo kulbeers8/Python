@@ -1,0 +1,11 @@
+name: Python CI
+on:
+ push:
+    branches: [main]
+jobs:
+  build:
+     run-on: self-hosted
+    
+     steps:
+       - name: Run Python Script
+         run: python app.py

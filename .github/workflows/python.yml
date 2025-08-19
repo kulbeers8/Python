@@ -4,7 +4,7 @@ on:
     branches: [main]
 jobs:
   build:
-     run-on: self-hosted
+     runs-on: self-hosted
     
      steps:
        - name: Checkout code

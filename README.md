@@ -63,3 +63,36 @@ Task 2: Sum of Integers from 1 to 50 Using a Loop
      1. In this task we have already defined range 1 to 50
      2. total_sum variable by default 0 . When it enter into the for loop then its value change until we reched our final range value.
 
+
+
+
+
+Assignment 4 
+
+Task 1: Read a File and Handle Errors 
+
+    Problem Statement:  Write a Python program that:
+    
+    1.   Opens and reads a text file named sample.txt.
+    2.   Prints its content line by line.
+    3.   Handles errors gracefully if the file does not exist.
+
+Solution: 
+
+  1. We use os module for check file exist or not using if condition
+  2. Open the file using with so that we not need to close file method It automatically close the file.
+  
+
+Task 2: Write and Append Data to a File
+ 
+  Problem Statement: Write a Python program that:
+   1.   Takes user input and writes it to a file named output.txt.
+   2.   Appends additional data to the same file.
+   3.   Reads and displays the final content of the file.
+
+  Solution: 
+
+   1. In this program first we take the input and write it into the file.
+   2. After write the file we again take input from the user.
+   3. Second input we append in this file.
+   4. After append we display the content inside the file.

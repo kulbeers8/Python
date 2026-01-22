@@ -64,6 +64,39 @@ Task 2: Sum of Integers from 1 to 50 Using a Loop
      2. total_sum variable by default 0 . When it enter into the for loop then its value change until we reched our final range value.
 
 
+Assignment 3
+
+  Task 1: Calculate Factorial Using a Function 
+
+
+  Problem Statement: Write a Python program that:
+  1.   Defines a function named factorial that takes a number as an argument and calculates its factorial using a loop or recursion.
+  2.   Returns the calculated factorial.
+  3.   Calls the function with a sample number and prints the output.
+ 
+ Solution:
+  
+  1. Take input from the user.
+  2. define a function name factorial and pass one argument
+  3. Use while loop. 
+  4. Create object of the function and print that object
+
+
+  
+  Task 3: Using the Math Module for Calculations
+ 
+	Problem Statement: Write a Python program that:
+	1.   Asks the user for a number as input.
+	2.   Uses the math module to calculate the:
+	o   Square root of the number
+	o   Natural logarithm (log base e) of the number
+	o   Sine of the number (in radians)
+	3.   Displays the calculated results.
+	
+ Solution : 
+
+   1. Use math module 
+   2. call math module function 
 
 
 

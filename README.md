@@ -144,15 +144,16 @@ Problem Statement: Write a Python program that:
 
 Solution:
 
- 1. Create a static dictionary
- 2. Take input from the usr
- 3. if User exist in list then give its marks
- 4. if user not found then it print Student not found.
+ 1. Create a static dictionary with name user_dict.
+ 2. Take input from the user. Given input savd in user_name. 
+ 3. Use If condition to check input user_name exist in user_dict.
+ 4. if User name exist then it print user_name with its marks.
+ 5. If user name not exist then it give error message Student not found.
 
 
 
   Task 2: Demonstrate List Slicing 
-Problem Statement: Write a Python program that:
+  Problem Statement: Write a Python program that:
 1.   Creates a list of numbers from 1 to 10.
 2.   Extracts the first five elements from the list.
 3.   Reverses these extracted elements.
@@ -160,8 +161,8 @@ Problem Statement: Write a Python program that:
 
 Soultion:
  
- 1. Create a list.
- 2. Slice the list for first five digit.
- 3. Reverse order of new generated first five digit list.
+ 1. Create a list from 1 to 10 using range function.
+ 2. Create a variable name firstfive and get first five number using slicing.
+ 3. Create a variable name reverse and add the list of first five variable in reverse order.
  
 
